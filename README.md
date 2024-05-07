@@ -50,10 +50,11 @@ After login, users gain access to the main menu, comprising four additional page
 ![image](https://github.com/ilanitb16/FAQ_Project/assets/97344492/4dbd3e74-a606-4dcd-ace4-2d355ff8af19)
 
 - **Login:**
-  ![image](https://github.com/ilanitb16/FAQ_Project/assets/97344492/498e612a-1127-4c2b-8c4e-c4f2131f727b)
+![image](https://github.com/ilanitb16/FAQ_Project/assets/97344492/cf9e5465-d173-485a-a1e7-a99be6356b18)
+![image](https://github.com/ilanitb16/FAQ_Project/assets/97344492/c8c6d318-ad7c-47f0-9d1a-45f03f9a7d4d)
 
 - **Registration:**
-![image](https://github.com/ilanitb16/FAQ_Project/assets/97344492/66c5d1d8-1da3-4338-a4d5-2f6f9c9011a4)
+![image](https://github.com/ilanitb16/FAQ_Project/assets/97344492/c49edf59-71df-4000-8946-dff39b76a9e5)
 
 - **Validation:**
     - ![image](https://github.com/ilanitb16/FAQ_Project/assets/97344492/997e83c1-5b7e-4b2d-ac6f-b0ae27579369)
