@@ -19,11 +19,27 @@ After login, users gain access to the main menu, comprising four additional page
 4. **Admin Page**: Exclusive to administrators, this page includes two sub-pages:
     - **Users List**: Displays all users' information including name, surname, username, and email address.
     - **User Management**: Allows editing user information, except for password and username. Administrators can designate other users as administrators and have the option to delete user accounts. However, administrators cannot delete their own accounts.
-
+5. Some basic screens to make the site realistic.
+   
 ## Usage:
 1. **Non-Registered Users**: Can access "About Us," "Privacy Policy," "Login," and "Register" pages.
 2. **Logged-in Users**: Access to all pages except "Users Edit" and "User Info," exclusive to administrators.
 3. **Administrators**: Have unrestricted access to all pages.
+
+*Login as a regular user:*
+
+- *Username: User*
+- *Password: 123*
+
+*Login as admin:*
+
+- *Username: Ilanitb16* 
+- *Password: ilanit1234*
+
+## Development
+- HTML, Java Script, ו- ASP.NET.
+- Visual Studio 2019. 
+
 
 ## Installation
 - Simply clone this repo and run the snl. No dependancies needed.
@@ -31,7 +47,7 @@ After login, users gain access to the main menu, comprising four additional page
 ## Screens:
 
 - **Main Page:**
-  ![image](https://github.com/ilanitb16/FAQ_Project/assets/97344492/0f5e9680-ec26-4cf1-abea-00aa1a9d2a5a)
+![image](https://github.com/ilanitb16/FAQ_Project/assets/97344492/4dbd3e74-a606-4dcd-ace4-2d355ff8af19)
 
 - **Login:**
   ![image](https://github.com/ilanitb16/FAQ_Project/assets/97344492/498e612a-1127-4c2b-8c4e-c4f2131f727b)
@@ -51,6 +67,17 @@ After login, users gain access to the main menu, comprising four additional page
     - *Editing and deleting users:*
       ![image](https://github.com/ilanitb16/FAQ_Project/assets/97344492/991352aa-386f-4ea0-8f8e-e6c94c121845)
 
+  - **Website Policy:**
+  ![image](https://github.com/ilanitb16/FAQ_Project/assets/97344492/eb7a5562-54cc-4094-b324-1642801be333)
+
+- **About:**
+  ![image](https://github.com/ilanitb16/FAQ_Project/assets/97344492/fcdb60a6-e4e4-422d-a60e-16f1128d1f22)
+
+- **Menu:**
+  ![image](https://github.com/ilanitb16/FAQ_Project/assets/97344492/4f7b1b12-60d5-4a01-932b-3f1fea890eee)
+
+- **Additional Page:**
+  ![image](https://github.com/ilanitb16/FAQ_Project/assets/97344492/3a49599d-c219-4929-8ef5-3980d55a51c7)
   
 To get more information, veiw the PDF file which was submitted along with the project.
 
