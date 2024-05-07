@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="main.master.cs" Inherits="master_main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <style>
+        li.admin-menu {position:relative}
+        li.admin-menu ul {display:none;position:absolute;top:40px;right:0;white-space:nowrap;margin-left:0;}
+        li.admin-menu:hover ul {display:block}
+        li.admin-menu ul li {display:block}
+        ul{padding:0px 0px 0px 0px}
+
+        li.info-menu {position:relative}
+        li.info-menu ul {display:none;position:absolute;top:40px;right:0;white-space:nowrap;margin-left:0;}
+        li.info-menu:hover ul {display:block}
+        li.info-menu ul li {display:block}
+
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server" style="text-align:right">
+         <div class="menu" style="font-family:Poppins;direction:ltr;text-align:left;margin-right:0; background-repeat:repeat;color:white">   
+            <ul style="margin:0"> 
+
+                <li><a href="Home.aspx">My Profile</a></li>
+                <li class="info-menu">Our Info
+                    <ul>
+                        <li><a href="PrivacyPolicy.aspx">Privaciy Policy</a></li>
+                        <li><a href="About.aspx">About</a></li>
+                        <li><a href="Corona.aspx">During Corona</a></li>
+                    </ul>
+                </li>
+                <%if (Session["user"] == null)
+                  { %>
+                <li><a href="Login.aspx">Login</a></li>
+                <li><a href="Register.aspx">Sign up</a></li>
+                <li><a href="Default.aspx">Home</a></li>
+                
+                <%}
+                else { %>
+                <li><a href="AnswerQuestion.aspx">Questions</a></li>
+                <li><a href="Logout.aspx">Logout</a></li>
+                <%} %>
+                <%if (Convert.ToBoolean(Session["IsAdmin"]) == true) { %>
+                <li class="admin-menu">Admin
+                    <ul>
+                        <li><a href="UsersInfo.aspx">Users Info</a></li>
+                        <li><a href="EditUsers.aspx">Edit Users</a></li>
+                    </ul>
+                </li>
+                 <% } %>
+               
+            </ul>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+           
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,334 @@
+﻿@font-face {
+    font-family: poppins;
+    src: url(fonts/poppins-thin.otf);
+}
+@font-face{
+    font-family:bohemian;
+    src:url(Fonts/Bohemian.otf);
+    font-family: gentle;
+    src:url('Fonts/A Gentle Touch.ttf');
+}
+
+body {
+    background-color: #9e9e9e;
+    background-size: 100%,auto;
+    margin: 0;
+}
+.menu li {
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    text-align:center;
+}
+.menu li:hover {
+    background-image: url(images/bg3.png);
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+/*LOGIN PAGE*/
+.login {
+    margin: auto;
+    width: 670px;
+    padding: 220px 0 50px 0;
+    border-radius: 10px;
+    background-color: #FFF;
+    background-image: url(images/bg2.png), url(images/signin-bg.jpg);
+    background-position: 0 0, 0 0;
+    background-repeat: repeat-x, no-repeat;
+    margin-top:50px;
+    position:relative;
+}
+
+.input {
+    border-bottom: #ccc solid 1px;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    background-color: #FFF;
+    padding-bottom: 7px;
+    width: 350px;
+    font-family: poppins;
+    padding-left:2px;
+}
+
+.caption {
+    position: relative;
+    width: 90px;
+    font-family: poppins;
+    padding: 15px;
+}
+
+.label {
+    top: 2px;
+    width: 70px;
+    font-size: 15px;
+    color: #808080;
+    line-height: 1.2;
+    text-align: right;
+    white-space: nowrap;
+    font-family: poppins;
+}
+
+.login-inner {
+    width: 450px;
+    margin: 30px auto 0px auto;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.login-title {
+    color: #fff;
+    font-size: 38px;
+    position: absolute;
+    top: 2%;
+    left: 40%
+}
+.button {
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 160px;
+    height: 50px;
+    background-color: #57b846;
+    border-radius: 25px;
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+}
+/*REGISTER PAGE*/
+.caption1 {
+    position: relative;
+    width: 50px;
+    margin-left:20px;
+}
+.field1{
+    margin-left:100px;
+}
+.register {
+    margin: auto;
+    width: 670px;
+    padding: 220px 0 0 0;
+    border-radius: 10px;
+    background-color: #FFF;
+    background-image: url(images/bg2.png), url(images/signin-bg.jpg);
+    background-position: 0 0, 0 0;
+    background-repeat: repeat-x, no-repeat;
+    margin-top: 20px;
+    position:relative
+}
+
+.register-inner {
+    /*width: 450px;*/
+    margin: 10px auto 10px auto;
+}
+
+.caption1 {
+    position: relative;
+    width: 90px;
+    font-family: poppins;
+}
+
+.label1 {
+    top: 2px;
+    width: 70px;
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: #808080;
+    line-height: 1.2;
+    text-align: right;
+    position: absolute;
+    white-space: nowrap;
+    font-family: poppins;
+    direction: ltr;
+    text-align: left;
+}
+
+.input1 {
+    border-bottom: #ccc solid 1px;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    background-color: #FFF;
+    padding-bottom: 7px;
+    width: 350px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    white-space: nowrap;
+    margin-left: 100px;
+    font-family: poppins;
+}
+
+.container-signin {
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+
+.register-title {
+    color: #fff;
+    font-size: 38px;
+    position: absolute;
+    top: 2%;
+    left: 37%
+}
+
+/*//HOME PAGE//*/
+
+.link {
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Poppins;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+.Msg {
+    color: #808080;
+    text-align: center;
+    white-space: nowrap;
+    font-family: poppins;
+    margin-left: 100px;
+    margin-top: 250px;
+}
+
+.msg, h1 {
+    font-size: 3.5em;
+    font-weight: 400;
+    color: white;
+}
+
+.smenu td {
+    padding: 0 25px;
+    color: white;
+}
+
+.smenu a:hover {
+    color: #F29766
+}
+
+.smenu {
+    text-align: center;
+    width: 500px;
+    border-right-color: #ccc;
+    margin: 0 auto;
+}
+
+.start_button {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 3px #6cc091;
+    color: #6cc091 !important;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto;
+    font-size: .75em;
+    font-weight: 400;
+    height: 3.75em;
+    line-height: 3.85em;
+    letter-spacing: 2px;
+    padding: 0 4em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: background-color linear .5s
+}
+
+.start_button:hover {
+    background-color: #ccc;
+}
+
+/*HOME.ASPX*/
+.home {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+.aa {
+    background-color: white;
+    width: 33%;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+}
+
+.menu-link {
+    display: block
+}
+
+.top-menu {
+    position: relative;
+    display: inline-block;
+    width: 33%;
+    background-color: red
+}
+
+.top-menu:hover .sub-menu {
+    display: block
+}
+
+.sub-menu {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    background-color: #ccc;
+    display: none
+}
+
+.body {
+    background-color: white;
+    background-image: none;
+}
+
+.table {
+    width: 100%;
+    /*background: #d1d1d1;*/
+    align-items: center;
+    justify-content: center;
+    padding: 33px 30px;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border-bottom: solid,#808080;
+    border-spacing: 2px;
+    font-family: poppins;
+    margin-top: 0;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+th, td {
+    font-weight: unset;
+    padding-right: 10px;
+}
+
+.tdStyle {
+    width: 265px;
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+
+.table tr td:hover {
+    background-color: darkgrey;
+}
+
+
+
+
+ 
